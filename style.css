@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+
+body{
+    background: url('./img/mega-curioso.jpg');
+    background-size: cover;
+    opacity: 1;
+
+}
+
+h1{
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+nav{
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+}
+
+.menu{
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+    margin-right: 5%;
+}
+
+
+.menu_item{
+    color: whitesmoke;
+    margin-bottom: 1%;
+}
+
+.menu_item a{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.banner div{
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: whitesmoke;
+}
+
+.banner h2{
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.banner p{
+    color: whitesmoke;
+    text-align: justify;
+    
+}
+
+.curiosidade{
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: whitesmoke;
+}
+
+.curiosidade_item{
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: whitesmoke;
+    gap: 10px;
+}
+
+.curiosidade h2{
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.curiosidade h3{
+    color: whitesmoke;
+}
+
+.curiosidade p{
+    color: whitesmoke;
+    text-align: justify;
+    gap: 5px;
+}
+
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.6;
+    list-style: none;
+}
