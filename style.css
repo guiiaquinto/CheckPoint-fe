@@ -8,7 +8,7 @@ body{
     background: url('./img/mega-curioso.jpg');
     background-size: cover;
     opacity: 1;
-
+    font-size: 20px;
 }
 
 h1{
@@ -108,10 +108,32 @@ nav{
     gap: 5px;
 }
 
+.video{
+    background-color: black;
+    color: whitesmoke;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: whitesmoke;
+}
+
+.video p{
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 10px;
+    gap: 10px;
+    color: whitesmoke;
+}
+
 
 footer{
     background-color: black;
     color: whitesmoke;
     opacity: 0.6;
     list-style: none;
+    margin-left: 40%;
+    padding: 10px;
 }
